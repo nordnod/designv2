@@ -1,0 +1,1378 @@
+[
+    {
+        "name": "anax/anax-design-me",
+        "version": "v1.0.14",
+        "version_normalized": "1.0.14.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/canax/anax-design-me.git",
+            "reference": "7c185aee6739831d04d6eada6c1df361df65c37c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/canax/anax-design-me/zipball/7c185aee6739831d04d6eada6c1df361df65c37c",
+            "reference": "7c185aee6739831d04d6eada6c1df361df65c37c",
+            "shasum": ""
+        },
+        "require": {
+            "anax/anax-flat": "^1.0.11",
+            "anax/cache": "^2.0.0@beta",
+            "anax/content": "^2.0.0@beta",
+            "php": "^7.2"
+        },
+        "time": "2018-10-29T16:36:26+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Anax\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "mos@dbwebb.se"
+            }
+        ],
+        "description": "A me page for the design course using Anax Flat.",
+        "homepage": "https://github.com/canax/anax-design-me",
+        "keywords": [
+            "anax",
+            "dbwebb",
+            "design"
+        ]
+    },
+    {
+        "name": "anax/anax-flat",
+        "version": "v1.0.12",
+        "version_normalized": "1.0.12.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/canax/anax-flat2.git",
+            "reference": "ce669474765466a6f47010b833649386aa3041b5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/canax/anax-flat2/zipball/ce669474765466a6f47010b833649386aa3041b5",
+            "reference": "ce669474765466a6f47010b833649386aa3041b5",
+            "shasum": ""
+        },
+        "require": {
+            "anax/anax-lite": "^1.0.24",
+            "anax/page": "^2.0.0@beta",
+            "anax/textfilter": "^1.2.3",
+            "anax/view": "^2.0.0@beta",
+            "mos/cimage": "^0.7.20",
+            "php": "^7.2",
+            "symfony/yaml": "^3.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^7"
+        },
+        "time": "2018-09-25T20:46:02+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Anax\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "mos@dbwebb.se"
+            }
+        ],
+        "description": "The Anax Flat framework, content and flat file websites.",
+        "homepage": "https://github.com/canax/anax",
+        "keywords": [
+            "Flat file CMS",
+            "anax",
+            "framework"
+        ]
+    },
+    {
+        "name": "anax/anax-lite",
+        "version": "v1.0.26",
+        "version_normalized": "1.0.26.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/canax/anax-lite.git",
+            "reference": "a6c97d14db5e4043312da919cd752d4b5694afd6"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/canax/anax-lite/zipball/a6c97d14db5e4043312da919cd752d4b5694afd6",
+            "reference": "a6c97d14db5e4043312da919cd752d4b5694afd6",
+            "shasum": ""
+        },
+        "require": {
+            "anax/commons": "^2.0.0@beta",
+            "anax/configure": "^2.0.0@beta",
+            "anax/controller": "^2.0.0@beta",
+            "anax/di": "^2.0.0@beta",
+            "anax/request": "^2.0.0@beta",
+            "anax/response": "^2.0.0@beta",
+            "anax/router": "^2.0.0@beta",
+            "anax/session": "^2.0.0@beta",
+            "anax/url": "^2.0.0@beta",
+            "php": "^7.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^7"
+        },
+        "time": "2018-09-25T18:22:38+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Anax\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "mos@dbwebb.se"
+            }
+        ],
+        "description": "The Anax Lite framework, the bare essentials.",
+        "homepage": "https://github.com/canax/anax-lite",
+        "keywords": [
+            "anax",
+            "framework",
+            "micro framework"
+        ]
+    },
+    {
+        "name": "anax/cache",
+        "version": "v2.0.0-beta.5",
+        "version_normalized": "2.0.0.0-beta5",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/canax/cache.git",
+            "reference": "1004bc303d941fd756e7e1ce13cc64f99a0d5113"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/canax/cache/zipball/1004bc303d941fd756e7e1ce13cc64f99a0d5113",
+            "reference": "1004bc303d941fd756e7e1ce13cc64f99a0d5113",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2",
+            "psr/simple-cache": "^1.0"
+        },
+        "require-dev": {
+            "anax/di": "^2.0.0@alpha",
+            "phpunit/phpunit": "^7"
+        },
+        "time": "2018-10-22T13:29:45+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Anax\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "mos@dbwebb.se"
+            }
+        ],
+        "description": "Anax Cache module, caching like PSR-6/16.",
+        "homepage": "https://github.com/canax/cache",
+        "keywords": [
+            "anax",
+            "framework"
+        ]
+    },
+    {
+        "name": "anax/commons",
+        "version": "v2.0.0-beta.6",
+        "version_normalized": "2.0.0.0-beta6",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/canax/commons.git",
+            "reference": "8c3d6ca9fc98a934448edd4d6bab38e177c2399b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/canax/commons/zipball/8c3d6ca9fc98a934448edd4d6bab38e177c2399b",
+            "reference": "8c3d6ca9fc98a934448edd4d6bab38e177c2399b",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2"
+        },
+        "require-dev": {
+            "anax/di": "^2.0.0@alpha",
+            "phpunit/phpunit": "^7"
+        },
+        "time": "2018-09-25T17:30:35+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Anax\\": "src/"
+            },
+            "files": [
+                "src/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "mos@dbwebb.se"
+            }
+        ],
+        "description": "Anax Commons module, stuff used by several modules.",
+        "homepage": "https://github.com/canax/commons",
+        "keywords": [
+            "anax",
+            "framework"
+        ]
+    },
+    {
+        "name": "anax/configure",
+        "version": "v2.0.0-beta.1",
+        "version_normalized": "2.0.0.0-beta1",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/canax/configure.git",
+            "reference": "82ab585dacaf8ed11109b8e6df53a77bf1e7d60b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/canax/configure/zipball/82ab585dacaf8ed11109b8e6df53a77bf1e7d60b",
+            "reference": "82ab585dacaf8ed11109b8e6df53a77bf1e7d60b",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2"
+        },
+        "require-dev": {
+            "anax/di": "^2.0.0@alpha",
+            "phpunit/phpunit": "^7"
+        },
+        "time": "2018-08-15T15:05:56+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Anax\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "mos@dbwebb.se"
+            }
+        ],
+        "description": "Anax Configure module, for reading config files.",
+        "homepage": "https://dbwebb.se/anax",
+        "keywords": [
+            "boilerplate",
+            "education",
+            "framework",
+            "mvc"
+        ]
+    },
+    {
+        "name": "anax/content",
+        "version": "v2.0.0-beta.3",
+        "version_normalized": "2.0.0.0-beta3",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/canax/content.git",
+            "reference": "054d198dd2370bb90e8268f5588db2cf05731755"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/canax/content/zipball/054d198dd2370bb90e8268f5588db2cf05731755",
+            "reference": "054d198dd2370bb90e8268f5588db2cf05731755",
+            "shasum": ""
+        },
+        "require": {
+            "anax/commons": "^2.0.0@alpha",
+            "anax/router": "^2.0.0@alpha",
+            "php": ">=7.2"
+        },
+        "require-dev": {
+            "anax/configure": "^2.0.0@alpha",
+            "anax/di": "^2.0.0@alpha",
+            "phpunit/phpunit": "^7"
+        },
+        "time": "2018-10-22T13:28:27+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Anax\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "mos@dbwebb.se"
+            }
+        ],
+        "description": "Anax Content module, filebased flat file content.",
+        "homepage": "https://dbwebb.se/anax",
+        "keywords": [
+            "boilerplate",
+            "education",
+            "framework",
+            "micro",
+            "mvc"
+        ]
+    },
+    {
+        "name": "anax/controller",
+        "version": "v2.0.0-beta.4",
+        "version_normalized": "2.0.0.0-beta4",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/canax/controller.git",
+            "reference": "be0a32e9a42fd834744cc5a4a898442813cdc572"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/canax/controller/zipball/be0a32e9a42fd834744cc5a4a898442813cdc572",
+            "reference": "be0a32e9a42fd834744cc5a4a898442813cdc572",
+            "shasum": ""
+        },
+        "require": {
+            "anax/commons": "^2.0.0@alpha",
+            "php": ">=7.2"
+        },
+        "require-dev": {
+            "anax/di": "^2.0.0@alpha",
+            "anax/request": "^2.0.0@alpha",
+            "anax/response": "^2.0.0@alpha",
+            "anax/view": "^2.0.0@alpha",
+            "phpunit/phpunit": "^7"
+        },
+        "time": "2018-09-25T17:27:59+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Anax\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "mos@dbwebb.se"
+            }
+        ],
+        "description": "Anax Controller module, with sample starter controllers.",
+        "homepage": "https://dbwebb.se/anax",
+        "keywords": [
+            "boilerplate",
+            "education",
+            "framework",
+            "micro",
+            "mvc"
+        ]
+    },
+    {
+        "name": "anax/di",
+        "version": "v2.0.0-beta.1",
+        "version_normalized": "2.0.0.0-beta1",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/canax/di.git",
+            "reference": "0d37fa94073fc4bfad41d63cfaa0e787202c26e5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/canax/di/zipball/0d37fa94073fc4bfad41d63cfaa0e787202c26e5",
+            "reference": "0d37fa94073fc4bfad41d63cfaa0e787202c26e5",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2",
+            "psr/container": "^1.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^7"
+        },
+        "time": "2018-08-15T15:01:48+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Anax\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "mos@dbwebb.se"
+            }
+        ],
+        "description": "Anax DI module, dependency injection (PHP FIG PSR-11).",
+        "homepage": "https://dbwebb.se/anax",
+        "keywords": [
+            "boilerplate",
+            "education",
+            "framework",
+            "micro",
+            "mvc"
+        ]
+    },
+    {
+        "name": "anax/page",
+        "version": "v2.0.0-beta.1",
+        "version_normalized": "2.0.0.0-beta1",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/canax/page.git",
+            "reference": "103ff5e9e317b841401e0f1dae3da681e33797fe"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/canax/page/zipball/103ff5e9e317b841401e0f1dae3da681e33797fe",
+            "reference": "103ff5e9e317b841401e0f1dae3da681e33797fe",
+            "shasum": ""
+        },
+        "require": {
+            "anax/commons": "^2.0.0@alpha",
+            "php": ">=7.2"
+        },
+        "require-dev": {
+            "anax/configure": "^2.0.0@alpha",
+            "anax/di": "^2.0.0@alpha",
+            "anax/request": "^2.0.0@alpha",
+            "anax/response": "^2.0.0@alpha",
+            "anax/view": "^2.0.0@alpha",
+            "phpunit/phpunit": "^7"
+        },
+        "time": "2018-08-15T14:59:59+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Anax\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "mos@dbwebb.se"
+            }
+        ],
+        "description": "Anax Page module, wrapper to ease create web pages.",
+        "homepage": "https://dbwebb.se/anax",
+        "keywords": [
+            "boilerplate",
+            "education",
+            "framework",
+            "micro",
+            "mvc"
+        ]
+    },
+    {
+        "name": "anax/request",
+        "version": "v2.0.0-beta.2",
+        "version_normalized": "2.0.0.0-beta2",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/canax/request.git",
+            "reference": "7e948a7a220ceaa4755d069b96a7c640ed104bd0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/canax/request/zipball/7e948a7a220ceaa4755d069b96a7c640ed104bd0",
+            "reference": "7e948a7a220ceaa4755d069b96a7c640ed104bd0",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^7"
+        },
+        "time": "2018-10-23T10:22:30+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Anax\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "mos@dbwebb.se"
+            }
+        ],
+        "description": "Anax Request module, details on the request.",
+        "homepage": "https://dbwebb.se/anax",
+        "keywords": [
+            "boilerplate",
+            "education",
+            "framework",
+            "micro",
+            "mvc"
+        ]
+    },
+    {
+        "name": "anax/response",
+        "version": "v2.0.0-beta.4",
+        "version_normalized": "2.0.0.0-beta4",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/canax/response.git",
+            "reference": "55ce6663c66e3b0348c99f83ac4dd49d332dc35b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/canax/response/zipball/55ce6663c66e3b0348c99f83ac4dd49d332dc35b",
+            "reference": "55ce6663c66e3b0348c99f83ac4dd49d332dc35b",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2"
+        },
+        "require-dev": {
+            "anax/commons": "^2.0.0@alpha",
+            "anax/configure": "^2.0.0@alpha",
+            "anax/di": "^2.0.0@alpha",
+            "phpunit/phpunit": "^7"
+        },
+        "time": "2018-10-23T08:26:38+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Anax\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "mos@dbwebb.se"
+            }
+        ],
+        "description": "Anax Response module, to create a HTTP response.",
+        "homepage": "https://dbwebb.se/anax",
+        "keywords": [
+            "boilerplate",
+            "education",
+            "framework",
+            "micro",
+            "mvc"
+        ]
+    },
+    {
+        "name": "anax/router",
+        "version": "v2.0.0-beta.6",
+        "version_normalized": "2.0.0.0-beta6",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/canax/router.git",
+            "reference": "244128e54ee5537f0e71ed99e440fa21fa2db624"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/canax/router/zipball/244128e54ee5537f0e71ed99e440fa21fa2db624",
+            "reference": "244128e54ee5537f0e71ed99e440fa21fa2db624",
+            "shasum": ""
+        },
+        "require": {
+            "anax/commons": "^2.0.0@alpha",
+            "php": ">=7.2",
+            "psr/container": "^1.0"
+        },
+        "require-dev": {
+            "anax/configure": "^2.0.0@alpha",
+            "anax/di": "^2.0.0@alpha",
+            "phpunit/phpunit": "^7"
+        },
+        "time": "2018-09-25T18:11:07+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Anax\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "mos@dbwebb.se"
+            }
+        ],
+        "description": "Anax Router module, route requests to handlers.",
+        "homepage": "https://dbwebb.se/anax",
+        "keywords": [
+            "boilerplate",
+            "education",
+            "framework",
+            "micro",
+            "mvc"
+        ]
+    },
+    {
+        "name": "anax/session",
+        "version": "v2.0.0-beta.3",
+        "version_normalized": "2.0.0.0-beta3",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/canax/session.git",
+            "reference": "82c4fe6db70a996266545bfaad07afb620439622"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/canax/session/zipball/82c4fe6db70a996266545bfaad07afb620439622",
+            "reference": "82c4fe6db70a996266545bfaad07afb620439622",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2"
+        },
+        "require-dev": {
+            "anax/configure": "^2.0.0@alpha",
+            "anax/di": "^2.0.0@alpha",
+            "phpunit/phpunit": "^7"
+        },
+        "suggest": {
+            "anax/configure": "^2.0.0@alpha"
+        },
+        "time": "2018-08-29T20:38:41+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Anax\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "mos@dbwebb.se"
+            }
+        ],
+        "description": "Anax Session module, a wrapper around sessions.",
+        "homepage": "https://dbwebb.se/anax",
+        "keywords": [
+            "boilerplate",
+            "education",
+            "framework",
+            "micro",
+            "mvc"
+        ]
+    },
+    {
+        "name": "anax/textfilter",
+        "version": "v1.2.4",
+        "version_normalized": "1.2.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/canax/textfilter.git",
+            "reference": "92a609ec7f8caf5f04fbd9a503536239b2cdc4d7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/canax/textfilter/zipball/92a609ec7f8caf5f04fbd9a503536239b2cdc4d7",
+            "reference": "92a609ec7f8caf5f04fbd9a503536239b2cdc4d7",
+            "shasum": ""
+        },
+        "require": {
+            "ezyang/htmlpurifier": "^4.0",
+            "michelf/php-markdown": "^1.6",
+            "michelf/php-smartypants": "^1.6",
+            "php": ">=7.0",
+            "scrivo/highlight.php": "^9.0"
+        },
+        "require-dev": {
+            "mustangostang/spyc": "^0.6.2",
+            "phpunit/phpunit": "^7",
+            "symfony/yaml": "^3.4"
+        },
+        "suggest": {
+            "ext-json": "*",
+            "ext-yaml": "*"
+        },
+        "time": "2018-08-15T14:37:18+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Anax\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "mos@dbwebb.se",
+                "homepage": "https://dbwebb.se",
+                "role": "Developer"
+            }
+        ],
+        "description": "Anax TextFilter module, frontmatter, shortcodes, markdown.",
+        "homepage": "https://dbwebb.se/anax",
+        "keywords": [
+            "anax",
+            "education",
+            "frontmatter",
+            "shortcodes",
+            "textprocessing"
+        ]
+    },
+    {
+        "name": "anax/url",
+        "version": "v2.0.0-beta.2",
+        "version_normalized": "2.0.0.0-beta2",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/canax/url.git",
+            "reference": "7c88a464a93581f5c1dea27ae560abf88554bf7f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/canax/url/zipball/7c88a464a93581f5c1dea27ae560abf88554bf7f",
+            "reference": "7c88a464a93581f5c1dea27ae560abf88554bf7f",
+            "shasum": ""
+        },
+        "require": {
+            "anax/configure": "^2.0.0@alpha",
+            "php": "^7.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^7"
+        },
+        "time": "2018-08-15T14:45:16+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Anax\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "mos@dbwebb.se"
+            }
+        ],
+        "description": "Anax Url module, to create links to urls and assets.",
+        "homepage": "https://dbwebb.se/anax",
+        "keywords": [
+            "anax",
+            "education",
+            "framework",
+            "micro",
+            "mvc"
+        ]
+    },
+    {
+        "name": "anax/view",
+        "version": "v2.0.0-beta.9",
+        "version_normalized": "2.0.0.0-beta9",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/canax/view.git",
+            "reference": "3cef7ad341eace09109a72d8370339939a69a6fc"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/canax/view/zipball/3cef7ad341eace09109a72d8370339939a69a6fc",
+            "reference": "3cef7ad341eace09109a72d8370339939a69a6fc",
+            "shasum": ""
+        },
+        "require": {
+            "anax/commons": "^2.0.0@alpha",
+            "php": "^7.2"
+        },
+        "require-dev": {
+            "anax/configure": "^2.0.0@alpha",
+            "anax/di": "^2.0.0@alpha",
+            "phpunit/phpunit": "^7"
+        },
+        "time": "2018-10-23T11:23:32+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Anax\\": "src/"
+            },
+            "files": [
+                "src/View/ViewHelperFunctions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "mos@dbwebb.se"
+            }
+        ],
+        "description": "Anax View module, collect and render views.",
+        "homepage": "https://dbwebb.se/anax",
+        "keywords": [
+            "anax",
+            "template"
+        ]
+    },
+    {
+        "name": "ezyang/htmlpurifier",
+        "version": "v4.10.0",
+        "version_normalized": "4.10.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ezyang/htmlpurifier.git",
+            "reference": "d85d39da4576a6934b72480be6978fb10c860021"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/d85d39da4576a6934b72480be6978fb10c860021",
+            "reference": "d85d39da4576a6934b72480be6978fb10c860021",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2"
+        },
+        "require-dev": {
+            "simpletest/simpletest": "^1.1"
+        },
+        "time": "2018-02-23T01:58:20+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "HTMLPurifier": "library/"
+            },
+            "files": [
+                "library/HTMLPurifier.composer.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL"
+        ],
+        "authors": [
+            {
+                "name": "Edward Z. Yang",
+                "email": "admin@htmlpurifier.org",
+                "homepage": "http://ezyang.com"
+            }
+        ],
+        "description": "Standards compliant HTML filter written in PHP",
+        "homepage": "http://htmlpurifier.org/",
+        "keywords": [
+            "html"
+        ]
+    },
+    {
+        "name": "michelf/php-markdown",
+        "version": "1.8.0",
+        "version_normalized": "1.8.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/michelf/php-markdown.git",
+            "reference": "01ab082b355bf188d907b9929cd99b2923053495"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/michelf/php-markdown/zipball/01ab082b355bf188d907b9929cd99b2923053495",
+            "reference": "01ab082b355bf188d907b9929cd99b2923053495",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2018-01-15T00:49:33+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Michelf\\": "Michelf/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Michel Fortin",
+                "email": "michel.fortin@michelf.ca",
+                "homepage": "https://michelf.ca/",
+                "role": "Developer"
+            },
+            {
+                "name": "John Gruber",
+                "homepage": "https://daringfireball.net/"
+            }
+        ],
+        "description": "PHP Markdown",
+        "homepage": "https://michelf.ca/projects/php-markdown/",
+        "keywords": [
+            "markdown"
+        ]
+    },
+    {
+        "name": "michelf/php-smartypants",
+        "version": "1.8.1",
+        "version_normalized": "1.8.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/michelf/php-smartypants.git",
+            "reference": "47d17c90a4dfd0ccf1f87e25c65e6c8012415aad"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/michelf/php-smartypants/zipball/47d17c90a4dfd0ccf1f87e25c65e6c8012415aad",
+            "reference": "47d17c90a4dfd0ccf1f87e25c65e6c8012415aad",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-12-13T01:01:17+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Michelf": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Michel Fortin",
+                "email": "michel.fortin@michelf.ca",
+                "homepage": "https://michelf.ca/",
+                "role": "Developer"
+            },
+            {
+                "name": "John Gruber",
+                "homepage": "https://daringfireball.net/"
+            }
+        ],
+        "description": "PHP SmartyPants",
+        "homepage": "https://michelf.ca/projects/php-smartypants/",
+        "keywords": [
+            "dashes",
+            "quotes",
+            "spaces",
+            "typographer",
+            "typography"
+        ]
+    },
+    {
+        "name": "mos/cimage",
+        "version": "v0.7.20",
+        "version_normalized": "0.7.20.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mosbth/cimage.git",
+            "reference": "cd142c58806c8edb6164a12a20e120eb7f436dfb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mosbth/cimage/zipball/cd142c58806c8edb6164a12a20e120eb7f436dfb",
+            "reference": "cd142c58806c8edb6164a12a20e120eb7f436dfb",
+            "shasum": ""
+        },
+        "require": {
+            "ext-gd": "*",
+            "php": ">=5.3"
+        },
+        "suggest": {
+            "ext-curl": "*",
+            "ext-exif": "*",
+            "ext-imagick": "*"
+        },
+        "time": "2017-11-06T09:24:47+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "defines.php",
+                "functions.php"
+            ],
+            "classmap": [
+                "CImage.php",
+                "CHttpGet.php",
+                "CRemoteImage.php",
+                "CWhitelist.php",
+                "CAsciiArt.php",
+                "CCache.php",
+                "CFastTrackCache.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mikael Roos",
+                "email": "me@mikaelroos.se",
+                "homepage": "http://mikaelroos.se",
+                "role": "Developer"
+            }
+        ],
+        "description": "Process, scale, resize, crop and filter images.",
+        "homepage": "http://dbwebb.se/opensource/cimage",
+        "keywords": [
+            "gd",
+            "image",
+            "imageprocessing"
+        ]
+    },
+    {
+        "name": "psr/container",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/container.git",
+            "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+            "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-02-14T16:28:37+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Container\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common Container Interface (PHP FIG PSR-11)",
+        "homepage": "https://github.com/php-fig/container",
+        "keywords": [
+            "PSR-11",
+            "container",
+            "container-interface",
+            "container-interop",
+            "psr"
+        ]
+    },
+    {
+        "name": "psr/simple-cache",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/simple-cache.git",
+            "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+            "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-10-23T01:57:42+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\SimpleCache\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interfaces for simple caching",
+        "keywords": [
+            "cache",
+            "caching",
+            "psr",
+            "psr-16",
+            "simple-cache"
+        ]
+    },
+    {
+        "name": "scrivo/highlight.php",
+        "version": "v9.12.0.5",
+        "version_normalized": "9.12.0.5",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/scrivo/highlight.php.git",
+            "reference": "0db45267df6b3bbae224ff86445d6407629e8b96"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/scrivo/highlight.php/zipball/0db45267df6b3bbae224ff86445d6407629e8b96",
+            "reference": "0db45267df6b3bbae224ff86445d6407629e8b96",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.8",
+            "symfony/finder": "^2.8"
+        },
+        "time": "2018-08-24T15:45:27+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Highlight\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Geert Bergman",
+                "homepage": "http://www.scrivo.org/",
+                "role": "Project Author"
+            },
+            {
+                "name": "Vladimir Jimenez",
+                "homepage": "https://allejo.io",
+                "role": "Contributor"
+            },
+            {
+                "name": "Martin Folkers",
+                "homepage": "https://twobrain.io",
+                "role": "Contributor"
+            }
+        ],
+        "description": "Server side syntax highlighter that supports 176 languages. It's a PHP port of highlight.js",
+        "keywords": [
+            "code",
+            "highlight",
+            "highlight.js",
+            "highlight.php",
+            "syntax"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-ctype",
+        "version": "v1.9.0",
+        "version_normalized": "1.9.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-ctype.git",
+            "reference": "e3d826245268269cd66f8326bd8bc066687b4a19"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e3d826245268269cd66f8326bd8bc066687b4a19",
+            "reference": "e3d826245268269cd66f8326bd8bc066687b4a19",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-ctype": "For best performance"
+        },
+        "time": "2018-08-06T14:22:27+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.9-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Ctype\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            },
+            {
+                "name": "Gert de Pagter",
+                "email": "BackEndTea@gmail.com"
+            }
+        ],
+        "description": "Symfony polyfill for ctype functions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "ctype",
+            "polyfill",
+            "portable"
+        ]
+    },
+    {
+        "name": "symfony/yaml",
+        "version": "v3.4.17",
+        "version_normalized": "3.4.17.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/yaml.git",
+            "reference": "640b6c27fed4066d64b64d5903a86043f4a4de7f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/yaml/zipball/640b6c27fed4066d64b64d5903a86043f4a4de7f",
+            "reference": "640b6c27fed4066d64b64d5903a86043f4a4de7f",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8",
+            "symfony/polyfill-ctype": "~1.8"
+        },
+        "conflict": {
+            "symfony/console": "<3.4"
+        },
+        "require-dev": {
+            "symfony/console": "~3.4|~4.0"
+        },
+        "suggest": {
+            "symfony/console": "For validating YAML files using the lint command"
+        },
+        "time": "2018-10-02T16:33:53+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Yaml\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Yaml Component",
+        "homepage": "https://symfony.com"
+    }
+]
