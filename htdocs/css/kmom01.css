@@ -5,6 +5,8 @@
  * to style up the website so it is useable.
  */
 
+ @import url('https://fonts.googleapis.com/css?family=Mukta');
+
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
     display: none;
@@ -18,10 +20,18 @@
 html {
     background-color: rgba(214, 199, 199, 0.75);
     overflow-y: scroll;
+    font-family: 'Mukta', sans-serif;
+    font-size: 100%;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear:both;
 }
 
 .wrap-all {
-    background: rgba(249, 241, 241, 0.67);
+    background-color: rgba(249, 241, 241, 0.67);
     width: 1200px;
     margin: 0px auto;
     padding: 10px;
@@ -79,11 +89,8 @@ html {
 figcaption {
     clear: left;
     float: left;
-}
-
-.outer-wrap-footer {
-    width: 90%;
-    margin: auto;
+    font-style: italic;
+    font-size: 0.9em;
 }
 
 .site-footer {
@@ -91,13 +98,25 @@ figcaption {
 }
 
 a {
-    color: rgba(19, 166, 228, 1)
+    color: rgba(19, 166, 228, 1);
+    text-decoration: none;
 }
 
 a:visited {
-    color: rgba(19, 166, 228, 0.93)
+    color: rgba(19, 166, 228, 0.93);
 }
 
 a:hover {
     color: rgba(73, 215, 224, 1);
+    text-decoration: underline;
+}
+
+.outer-wrap-footer {
+    background-image: linear-gradient(#f9f1f1, #d6c7c7);
+    font-size: 0.9em;
+    box-sizing: border-box;
+    padding: 30px;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
 }

@@ -1,1 +1,1 @@
-&copy; 2018 David
+2018 &copy; D Nord

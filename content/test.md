@@ -15,11 +15,10 @@ Testsida för Markdown
   * Unordered sub-list
   * Unordered sub-list
 
-h1 header
-=======
+# h1 header
 
-h2 header
---------
+### h3 header
+
 
 *italic*
 

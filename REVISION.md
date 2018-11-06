@@ -4,6 +4,7 @@ Revision history
 v1.0.1 (2018-11-06)
 -------------------
 * Added styling and pictures
+* Finished report
 
 v1.0.0 (2018-11-06)
 -------------------

@@ -1,3 +1,3 @@
-#### Footer col 1
+#### Nyheter
 
-Footer kolumn 1. Här skulle kunna stå vad som helst.
+Sidan är uppdaterad 181106
