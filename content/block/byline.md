@@ -1,9 +1,4 @@
-<div class="author-byline">
-<figure class="figure left">
+<div class="byline">
     <img src="image/dn.jpg&w=75" alt="Bild på David">
-    <figcaption>
-        <p>David Nord</p>
-    </figcaption>
-</figure>
-    <p>David Nord studerar ett kurspaket i webbprogrammering vid Blekinge Tekniska Högskola.</p>
+    <p>David studerar ett kurspaket i webbprogrammering vid Blekinge Tekniska Högskola.</p>
 </div>

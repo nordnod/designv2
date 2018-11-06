@@ -14,3 +14,90 @@
 .rm-navbar-max {
     display: none;
 }
+
+html {
+    background-color: rgba(214, 199, 199, 0.75);
+    overflow-y: scroll;
+}
+
+.wrap-all {
+    background: rgba(249, 241, 241, 0.67);
+    width: 1200px;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.region-flash img {
+    display: block;
+    margin: auto;
+}
+
+.region-header-col-1 {
+    display: none;
+}
+
+.my-navbar {
+    text-align: center;
+}
+
+.my-navbar li {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgba(168, 160, 182, 0.28);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article img {
+    float: left;
+    margin-right: 15px;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+}
+
+.byline {
+    margin-top: 10px;
+    border: 2px solid black;
+    overflow: auto;
+    width: 50%;
+}
+
+.byline img {
+    padding: 10px;
+    float: left;
+}
+
+.article {
+    overflow: auto;
+    padding-bottom: 30px;
+}
+
+figcaption {
+    clear: left;
+    float: left;
+}
+
+.outer-wrap-footer {
+    width: 90%;
+    margin: auto;
+}
+
+.site-footer {
+    text-align: center;
+}
+
+a {
+    color: rgba(19, 166, 228, 1)
+}
+
+a:visited {
+    color: rgba(19, 166, 228, 0.93)
+}
+
+a:hover {
+    color: rgba(73, 215, 224, 1);
+}
