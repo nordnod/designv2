@@ -1,0 +1,226 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: rgba(214, 199, 199, 0.75);
+  font-family: 'Mukta', sans-serif;
+  font-size: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: rgba(249, 241, 241, 0.67);
+  font: 100.01%/1 serif;
+}
+a {
+  color: #13a6e4;
+  text-decoration: none;
+}
+a:visited {
+  color: rgba(19, 166, 228, 0.93);
+}
+a:hover {
+  color: #49d7e0;
+  text-decoration: underline;
+}
+figcaption {
+  clear: left;
+  float: left;
+  font-style: italic;
+  font-size: 0.9em;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+@font-face {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Mukta Regular'), local('Mukta-Regular'), url(https://fonts.gstatic.com/s/mukta/v5/iJWKBXyXfDDVXbnBrXk.ttf) format('truetype');
+}
+.inner-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+  display: none;
+}
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+  display: none;
+}
+.row::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.outer-wrap-main {
+  padding: 20px;
+}
+.inner-wrap-main {
+  padding: 15px;
+}
+.wrap-all {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.has-sidebar-right {
+  float: left;
+  width: 65%;
+}
+.region-flash img {
+  display: block;
+  margin: auto;
+}
+.region-header-col-1 {
+  display: none;
+}
+.region-sidebar-right {
+  float: left;
+  width: 20%;
+  padding: 10px 10px;
+}
+.region-sidebar-left {
+  float: left;
+  padding-right: 30px;
+}
+.my-navbar {
+  text-align: center;
+}
+.my-navbar li {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: rgba(168, 160, 182, 0.28);
+  margin-left: auto;
+  margin-right: auto;
+}
+.article {
+  overflow: auto;
+  padding-bottom: 30px;
+}
+.article img {
+  float: left;
+  margin-right: 15px;
+}
+.footer-column {
+  width: 33%;
+  float: left;
+}
+.site-footer {
+  text-align: center;
+}
+.byline {
+  margin-top: 10px;
+  border: 2px solid black;
+  overflow: auto;
+  width: 50%;
+}
+.byline img {
+  padding: 10px;
+  float: left;
+}
+.outer-wrap-footer {
+  background-image: linear-gradient(#f9f1f1, #d6c7c7);
+  font-size: 0.9em;
+  box-sizing: border-box;
+  padding: 30px;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+}
+.next {
+  float: right;
+}
+.breadcrumb-list li,
+.bullet-list {
+  display: inline;
+}
+.breadcrumb-list li::after {
+  content: " > ";
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */
