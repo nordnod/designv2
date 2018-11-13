@@ -1,3 +1,3 @@
 #### Nyheter
 
-Sidan är uppdaterad 181106
+Sidan är uppdaterad 181113

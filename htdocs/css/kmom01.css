@@ -5,7 +5,7 @@
  * to style up the website so it is useable.
  */
 
- @import url('https://fonts.googleapis.com/css?family=Mukta');
+ /* @import url('https://fonts.googleapis.com/css?family=Mukta'); */
 
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
@@ -24,17 +24,51 @@ html {
     font-size: 100%;
 }
 
+a {
+    color: rgba(19, 166, 228, 1);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgba(19, 166, 228, 0.93);
+}
+
+a:hover {
+    color: rgba(73, 215, 224, 1);
+    text-decoration: underline;
+}
+
+figcaption {
+    clear: left;
+    float: left;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
 .row::after {
     content: "";
     display: block;
     clear:both;
 }
 
+.outer-wrap-main {
+    padding: 20px;
+}
+
+.inner-wrap-main {
+    padding: 15px;
+}
+
 .wrap-all {
     background-color: rgba(249, 241, 241, 0.67);
     width: 1200px;
-    margin: 0px auto;
+    margin: 0 auto;
     padding: 10px;
+}
+
+.has-sidebar-right {
+    float: left;
+    width: 65%;
 }
 
 .region-flash img {
@@ -44,6 +78,17 @@ html {
 
 .region-header-col-1 {
     display: none;
+}
+
+.region-sidebar-right {
+    float: left;
+    width: 20%;
+    padding: 10px 10px;
+}
+
+.region-sidebar-left {
+    float: left;
+    padding-right: 30px;
 }
 
 .my-navbar {
@@ -59,6 +104,11 @@ html {
     margin-right: auto;
 }
 
+.article {
+    overflow: auto;
+    padding-bottom: 30px;
+}
+
 .article img {
     float: left;
     margin-right: 15px;
@@ -67,6 +117,10 @@ html {
 .footer-column {
     width: 33%;
     float: left;
+}
+
+.site-footer {
+    text-align: center;
 }
 
 .byline {
@@ -81,36 +135,6 @@ html {
     float: left;
 }
 
-.article {
-    overflow: auto;
-    padding-bottom: 30px;
-}
-
-figcaption {
-    clear: left;
-    float: left;
-    font-style: italic;
-    font-size: 0.9em;
-}
-
-.site-footer {
-    text-align: center;
-}
-
-a {
-    color: rgba(19, 166, 228, 1);
-    text-decoration: none;
-}
-
-a:visited {
-    color: rgba(19, 166, 228, 0.93);
-}
-
-a:hover {
-    color: rgba(73, 215, 224, 1);
-    text-decoration: underline;
-}
-
 .outer-wrap-footer {
     background-image: linear-gradient(#f9f1f1, #d6c7c7);
     font-size: 0.9em;
@@ -119,4 +143,16 @@ a:hover {
     width: 100%;
     margin: auto;
     margin-top: 50px;
+}
+
+.next {
+    float: right;
+}
+
+.breadcrumb-list li, .bullet-list {
+    display: inline;
+}
+
+.breadcrumb-list li::after {
+    content: " > ";
 }
