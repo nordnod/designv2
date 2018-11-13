@@ -14,7 +14,7 @@ views:
 Min me-sida i kursen design
 =========================
 
-[FIGURE src="image/dn.jpg?w=150" class="right" caption="Bild på mig"]
+[FIGURE src="image/dn2.jpg?w=150" class="right" caption="Bild på mig"]
 
 Detta är Davids me-sida i kursen design v2.
 
