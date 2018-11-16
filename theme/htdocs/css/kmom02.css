@@ -324,6 +324,23 @@ figure.figure.right {
 figure.figure figcaption {
   clear: left;
 }
+.my-navbar li {
+  border: 1px solid black;
+  background-color: rgba(168, 160, 182, 0.28);
+}
+.inner-wrap {
+  background-color: rgba(249, 241, 241, 0.67);
+}
+.footer-column-1 {
+  float: left;
+}
+.footer-column-2 {
+  text-align: center;
+}
+.footer-column-3 {
+  text-align: right;
+  float: right;
+}
 /**
  * Style for the stylechooser.
  */
@@ -562,25 +579,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   right: 0;
 }
 /**
- * Style for responsive menu
- */
-/**
-  * Example on media queries
-  */
-@media screen and (max-width: 680px) {
-  .rm-small {
-    display: block;
-  }
-  .rm-desktop {
-    display: none;
-  }
-}
-@media screen and (min-width: 680px) {
-  .rm-small {
-    display: none;
-  }
-}
-/**
  * Base style to affect HTML elements on a general scale.
  */
 /**
@@ -588,7 +586,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
-  background-color: rgba(214, 199, 199, 0.75);
+  background-color: #dedcdc;
   font-family: 'Mukta', sans-serif;
   font-size: 100%;
 }
@@ -596,8 +594,11 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: rgba(249, 241, 241, 0.67);
+  background-color: #dedcdc;
   font: 100.01%/1 serif;
+}
+.outer-wrap-footer {
+  background-image: #dedcdc;
 }
 a {
   color: #13a6e4;
@@ -646,10 +647,10 @@ img {
   clear: both;
 }
 .outer-wrap-main {
-  padding: 20px;
+  padding: 1em;
 }
 .inner-wrap-main {
-  padding: 15px;
+  padding: 1em;
 }
 .has-sidebar-right {
   float: left;
@@ -665,30 +666,22 @@ img {
 .region-sidebar-right {
   float: left;
   width: 20%;
-  padding: 10px 10px;
+  padding: 0.8em 0.8em;
 }
 .region-sidebar-left {
   float: left;
-  padding-right: 30px;
+  padding-right: 2em;
 }
 .my-navbar {
   text-align: center;
 }
-.my-navbar li {
-  display: inline-block;
-  border: 1px solid black;
-  padding: 5px;
-  background-color: rgba(168, 160, 182, 0.28);
-  margin-left: auto;
-  margin-right: auto;
-}
 .article {
   overflow: auto;
-  padding-bottom: 30px;
+  padding-bottom: 2em;
 }
 .article img {
   float: left;
-  margin-right: 15px;
+  margin-right: 1em;
 }
 .footer-column {
   width: 33%;
@@ -704,17 +697,16 @@ img {
   width: 50%;
 }
 .byline img {
-  padding: 10px;
+  padding: 0.8em;
   float: left;
 }
 .outer-wrap-footer {
-  background-image: linear-gradient(#f9f1f1, #d6c7c7);
   font-size: 0.9em;
   box-sizing: border-box;
-  padding: 30px;
+  padding: 2em;
   width: 100%;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 3em;
 }
 .next {
   float: right;
@@ -732,6 +724,22 @@ img {
 @media screen and (max-width: 1500px) {
   .site-logo {
     display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .rm-desktop {
+    display: none;
+  }
+  .footer-column {
+    width: 100%;
+    float: left;
+    display: inline;
+  }
+  .footer-column-1,
+  .footer-column-2,
+  .footer-column-3 {
+    float: left;
+    text-align: left;
   }
 }
 /**
