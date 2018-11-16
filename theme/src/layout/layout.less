@@ -41,11 +41,13 @@
 
 .inner-wrap-main {
     padding: 1em;
+    overflow: auto;
 }
 
-.has-sidebar-right {
+// Three column layout
+.region-main.has-sidebar-left.has-sidebar-right {
     float: left;
-    width: 65%;
+    width: 40%;
 }
 
 .region-flash img {
@@ -57,14 +59,20 @@
     display: none;
 }
 
-.region-sidebar-right {
+.region-main {
+    width: 70%;
     float: left;
-    width: 20%;
+}
+
+.region-sidebar-right {
+    float: right;
+    width: 25%;
     padding: 0.8em 0.8em;
 }
 
 .region-sidebar-left {
     float: left;
+    width: 25%;
     padding-right: 2em;
 }
 
@@ -95,7 +103,7 @@
     margin-top: 10px;
     border: 2px solid black;
     overflow: auto;
-    width: 50%;
+    // width: 50%;
 }
 
 .byline img {
