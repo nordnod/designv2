@@ -325,11 +325,17 @@ figure.figure figcaption {
   clear: left;
 }
 .my-navbar li {
-  border: 1px solid black;
-  background-color: rgba(168, 160, 182, 0.28);
+  background-color: #be8397;
+  box-shadow: 0px 5px 5px rgba(131, 43, 72, 0.32);
+  color: #eee7e7;
+}
+.my-navbar li:hover {
+  background-color: rgba(131, 43, 72, 0.19);
+  box-shadow: 0px 5px 5px rgba(131, 43, 72, 0.32);
+  color: #eee7e7;
 }
 .inner-wrap {
-  background-color: rgba(249, 241, 241, 0.67);
+  background-color: #eee7e7;
 }
 .footer-column-1 {
   float: left;
@@ -597,8 +603,8 @@ body {
   margin: 0;
   padding: 0;
   color: #333;
-  background-color: #dedcdc;
-  font: 100.01%/1 serif;
+  background-color: #aba7a7;
+  font: 100.01%/1 'Mukta', sans-serif;
 }
 .outer-wrap-footer {
   background-image: #dedcdc;
@@ -667,7 +673,7 @@ img {
 .region-header-col-1 {
   display: none;
 }
-.region-main {
+.region-main.has-sidebar-right {
   width: 70%;
   float: left;
 }
@@ -714,7 +720,6 @@ img {
   padding: 2em;
   width: 100%;
   margin: auto;
-  margin-top: 3em;
 }
 .next {
   float: right;
@@ -751,6 +756,9 @@ img {
   }
   .region-sidebar-left {
     float: none;
+  }
+  .region-sidebar-right {
+    float: left;
   }
 }
 /**
