@@ -18,9 +18,9 @@ Min me-sida i kursen design
 
 Detta är Davids me-sida i kursen design v2.
 
-Jag arbetar till vardags med att underhålla och administrera en webbshop i däckbranchen.
+Jag arbetar till vardags med att underhålla och administrera en webbshop i däckbranchen. Utöver detta läser jag ett kurspaket i Webbprogrammering vid BTH.
 
-Bor med familj i Skåne där jag är uppväxt, men bodde tidigare 10 år i Stockholm.
-Jag har alltid varit intresserad av datorer och min första dator var en Amiga 500.
+Bor med familj i Skåne där jag är uppväxt, men bodde tidigare 10 år i Stockholm. Arbetade då bland annat som UNIX-konsult.
+Jag har alltid varit intresserad av datorer och min första dator var en Amiga 500, som jag dessvärre inte har kvar.
 
 Andra intressen är musik samt tv- / datorspel.
