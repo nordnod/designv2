@@ -1,5 +1,9 @@
 Revision history
 =======================
+v3.0.1 (2018-11-20)
+------------------------
+* Kmom03 beginning
+
 v2.1.0 (2018-11-20)
 ------------------------
 * Kmom02 final version. More responsive layout and new report text.
