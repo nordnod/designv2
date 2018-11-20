@@ -1,9 +1,7 @@
 /*!
  * LESS version of the stylesheet for design kmom03.
  *
- * This stylesheet is for the design course and kmom02. Its intention is to
- * use kmom01.css and lessify the style and use this as a wrapper for the new
- * style.
+ * This stylesheet is for the design course and kmom03.
  */
 
 /**
@@ -26,9 +24,21 @@
 
 
 /**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+// body {
+//     #desinax-hgrid.font(@fontSizeBody);
+// }
+
+/**
  * Base style to affect HTML elements on a general scale.
  */
 //@import "base/base.less";
+@import "base/base_kmom03.less";
+
 
 
 
@@ -53,7 +63,6 @@
  */
 @import "@desinax/vertical-grid/less/grid.less";
 @import "layout/vgrid.less";
-
 
 
 
