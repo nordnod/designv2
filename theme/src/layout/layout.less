@@ -8,6 +8,15 @@
  */
 
 
+ /* Hide submenu, leave this to kmom02 */
+ // .rm-desktop ul {
+ //     display: none;
+ // }
+
+ /* Hide responsive/mobile menu, leave this to kmom02 */
+ // .rm-navbar-max {
+ //     display: none;
+ // }
 /**
  * General layout
  */
@@ -17,17 +26,11 @@
      max-width: 1100px;
      margin: 0 auto;
      padding: 1em;
+     &-main {
+         padding: 1em;
+         overflow: auto;
+     }
  }
-
-/* Hide submenu, leave this to kmom02 */
-// .rm-desktop ul {
-//     display: none;
-// }
-
-/* Hide responsive/mobile menu, leave this to kmom02 */
-// .rm-navbar-max {
-//     display: none;
-// }
 
 .row::after {
     content: "";
@@ -37,11 +40,6 @@
 
 .outer-wrap-main {
     padding: 1em;
-}
-
-.inner-wrap-main {
-    padding: 1em;
-    overflow: auto;
 }
 
 // Three column layout
@@ -83,11 +81,10 @@
 .article {
     overflow: auto;
     padding-bottom: 2em;
-}
-
-.article img {
-    float: left;
-    margin-right: 1em;
+    & img {
+        float: left;
+        margin-right: 1em;
+    }
 }
 
 .footer-column {
@@ -103,12 +100,11 @@
     margin-top: 10px;
     border: 2px solid black;
     overflow: auto;
-    // width: 50%;
-}
-
-.byline img {
-    padding: 0.8em;
-    float: left;
+    width: 75%;
+    & img {
+        padding: 0.8em;
+        float: left;
+    }
 }
 
 .outer-wrap-footer {
