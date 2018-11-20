@@ -587,9 +587,9 @@ a.rm-button.rm-clicked .rm-button-face-2 {
      * Enable all default typographic elements.
      */
 }
-/**
- * Base style to affect HTML elements on a general scale.
- */
+.hgrid .inner-wrap {
+  background-image: url("../img/magic-number-24px.png");
+}
 /**
  * Base style to affect HTML elements on a general scale.
  */
@@ -599,7 +599,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "serif";
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -723,7 +723,7 @@ code,
 kbd,
 samp,
 .code {
-  font-family: "monospace";
+  font-family: "Courier New", Courier, monospace;
 }
 code,
 samp {
@@ -876,9 +876,6 @@ hr::after {
   left: 50%;
   padding: 0 0.25em;
   background-color: #fff;
-}
-.hgrid .inner-wrap {
-  background-image: url("../img/magic-number-24px.png");
 }
 html {
   overflow-y: scroll;

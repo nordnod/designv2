@@ -13,7 +13,7 @@
 /**
  * Internal self contained modules, save in directory module/.
  */
-//@import "layout/layout-kmom03.less";
+@import "layout/layout-kmom03.less";
 @import "module/stylechooser.less";  // Just an example module
 
 /**
@@ -29,9 +29,11 @@
 @import "@desinax/typographic-grid/less/typography-font-families.less";
 @import "@desinax/typographic-grid/less/typography-defaults.less";
 
-// body {
-//     #desinax-hgrid.font(@fontSizeBody);
-// }
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
 
 /**
  * Base style to affect HTML elements on a general scale.
@@ -69,3 +71,16 @@
 /**
  * My own settings, not currently in their own module.
  */
+ // Settings for typographic grid
+ @fontFamilyHeadings: @fontFamilyGaramond;
+ @fontFamilyBody:     @fontFamilyMyriadPro;
+ @fontFamilyCode:     @fontFamilyCourier;
+
+ // Magic number and base font size
+ @magicNumber:   24px;
+ @fontSizeBody:  16px;
+
+ @fontFamilyBody: serif; // "serif"
+ @bgColorHtml: #dedcdc;
+ @bgColorBody: #aba7a7;
+ @colorBody: #333;

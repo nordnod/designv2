@@ -1,24 +1,8 @@
-/**
- * Base style to affect HTML elements on a general scale.
- */
-// @bgColorHtml: rgba(214, 199, 199, 0.75);
-@bgColorHtml: #dedcdc;
-@bgColorBody: #aba7a7;
-
 
 // Activate grid and affect all typographic elements
 #desinax-hgrid.activateDefaultTypography();
 
-// Show the grid
-.hgrid .inner-wrap {
-    @gridImage: "../img/magic-number-@{magicNumber}.png";
-    #desinax-hgrid.showGrid(@gridImage);
-}
 
-@fontFamilyBody: serif; // "serif"
-
-@colorBody: #333;
-// @fontFamilyBody: 'Mukta', sans-serif;
 
 html {
     overflow-y: scroll;
@@ -34,12 +18,6 @@ body {
     background-color: @bgColorBody;
     // font: 100.01%/1 @fontFamilyBody;
     #desinax-hgrid.font(@fontSizeBody);
-}
-
-
-
-.outer-wrap-footer {
-    // background-image: #dedcdc;
 }
 
 a {
