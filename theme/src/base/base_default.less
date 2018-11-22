@@ -1,16 +1,14 @@
 /**
  * Base style to affect HTML elements on a general scale.
  */
-@bgColorHtml: rgba(214, 199, 199, 0.75);
-@bgColorBody: rgba(249, 241, 241, 0.67);
+@bgColorHtml: #424242;
+@bgColorBody: #fff;
 @colorBody: #333;
 @fontFamilyBody: serif;
 
 html {
     overflow-y: scroll;
     background-color: @bgColorHtml;
-    font-family: 'Mukta', sans-serif;
-    font-size: 100%;
 }
 
 body {
@@ -19,25 +17,4 @@ body {
     color: @colorBody;
     background-color: @bgColorBody;
     font: 100.01%/1 @fontFamilyBody;
-}
-
-a {
-    color: rgba(19, 166, 228, 1);
-    text-decoration: none;
-}
-
-a:visited {
-    color: rgba(19, 166, 228, 0.93);
-}
-
-a:hover {
-    color: rgba(73, 215, 224, 1);
-    text-decoration: underline;
-}
-
-figcaption {
-    clear: left;
-    float: left;
-    font-style: italic;
-    font-size: 0.9em;
 }
