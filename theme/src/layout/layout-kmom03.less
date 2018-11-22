@@ -1,1 +1,126 @@
+.byline {
+   // margin-top: 10px;
+   border: 2px solid black;
+   // overflow: auto;
+   // width: 75%;
+   & img {
+       // padding: 0.8em;
+       // float: left;
+   }
+}
 
+.outer-wrap-footer {
+   // font-size: 0.9em;
+   // box-sizing: border-box;
+   // padding: 2em;
+   // width: 100%;
+   // margin: auto;
+}
+
+.next {
+   // float: right;
+}
+
+.breadcrumb-list li, .bullet-list {
+   display: inline;
+}
+
+.breadcrumb-list li::after {
+   content: " > ";
+}
+
+.region-header-col-1 {
+    visibility: hidden;
+}
+
+.my-navbar {
+   text-align: center;
+}
+
+.article {
+   // overflow: auto;
+   // padding-bottom: 2em;
+   & img {
+       // float: left;
+       // margin-right: 1em;
+   }
+}
+
+.region-main.has-sidebar-right {
+   // width: 70%;
+   // float: left;
+}
+
+// .region-sidebar-right {
+   // float: right;
+   // width: 25%;
+   // padding: 0.8em 0.8em;
+// }
+
+.region-flash img {
+    display: block;
+    margin: auto;
+    width: 75%;
+}
+
+
+
+// Fixes placement of text under pictures (in figures)
+figure.figure.right {
+    // float: left;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+figure.figure figcaption {
+    // clear: left;
+}
+
+.my-navbar li {
+    background-color: rgba(190, 131, 151, 1);
+    box-shadow: 0px 5px 5px rgba(131, 43, 72, 0.32);
+    color: #eee7e7;
+    &:hover {
+        background-color: rgba(131, 43, 72, 0.19);
+    }
+}
+
+.footer-column-1 {
+    // float: left;
+}
+
+.footer-column-2 {
+    // text-align: center;
+}
+
+.footer-column-3 {
+    // text-align: right;
+    // float: right;
+}
+
+.section-header {
+    font-size: 1.2em;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Mukta');
+
+.row::after {
+   content: "";
+   display: block;
+   clear:both;
+}
+
+.outer-wrap-main {
+   // padding: 1em;
+}
+
+// Three column layout
+.region-main.has-sidebar-left.has-sidebar-right {
+   // float: left;
+   // width: 40%;
+}
+//
+// .region-flash img {
+//    display: block;
+//    margin: auto;
+// }
