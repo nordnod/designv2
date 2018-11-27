@@ -324,8 +324,11 @@ template {
 .breadcrumb-list li::after {
   content: " > ";
 }
-.region-header-col-1 {
-  visibility: hidden;
+.site-logo-text {
+  display: none;
+}
+.site-logo-text-icon {
+  display: none;
 }
 .my-navbar {
   text-align: center;
@@ -935,7 +938,7 @@ html {
 }
 body {
   color: #333;
-  background-color: #aba7a7;
+  background-color: #eee7e7;
   font: 16px/1.5 serif;
 }
 a {
@@ -5081,7 +5084,6 @@ a:hover {
   margin-right: auto;
   margin-left: auto;
   max-width: 1100px;
-  background-color: #eee7e7;
 }
 .region-flash {
   display: inline;

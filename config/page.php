@@ -20,7 +20,7 @@ return [
             "stylesheets" => [
                 // Change here to set another default stylesheet
                 // "css/dbwebb-se.min.css",
-                "css/kmom02.css",
+                "css/kmom03.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",
@@ -35,8 +35,9 @@ return [
             "template" => "anax/v2/header/site_logo",
             "data" => [
                 "class" => "large",
-                "siteLogo"      => "image/theme/leaf_256x256.png",
-                "siteLogoAlt"   => "Löv",
+                // "siteLogo"      => "image/theme/leaf_256x256.png",
+                "siteLogo"      => "image/dnor.png?width=200&height=150",
+                "siteLogoAlt"   => "Logo",
             ],
         ],
         [
