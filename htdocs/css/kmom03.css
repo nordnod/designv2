@@ -960,9 +960,6 @@ a:hover {
  * and other regions of the page including route specific styles.
  */
 /**
- * Layout for responsive style through media queries.
- */
-/**
  * Show off the regions used in the website, to ease styling.
  */
 .regions .outer-wrap {
@@ -5189,15 +5186,6 @@ a:hover {
     background-size: 100% auto;
   }
 }
-/**
- * My own settings, not currently in their own module.
- */
-@font-face {
-  font-family: 'Mukta';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Mukta Regular'), local('Mukta-Regular'), url(https://fonts.gstatic.com/s/mukta/v5/iJWKBXyXfDDVXbnBrXk.ttf) format('truetype');
-}
 @media screen and (max-width: 950px) {
   .rm-desktop {
     display: none;
@@ -5268,4 +5256,13 @@ a:hover {
     margin-right: 0.52083333%;
     margin-left: 4.6875%;
   }
+}
+/**
+ * My own settings, not currently in their own module.
+ */
+@font-face {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Mukta Regular'), local('Mukta-Regular'), url(https://fonts.gstatic.com/s/mukta/v5/iJWKBXyXfDDVXbnBrXk.ttf) format('truetype');
 }
