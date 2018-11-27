@@ -1,5 +1,21 @@
 Revision history
 =======================
+v3.0.5 (2018-11-27)
+------------------------
+* Kmom03 Responsive layout and report written
+
+v3.0.4 (2018-11-22)
+------------------------
+* Kmom03 save point after course update
+
+v3.0.3 (2018-11-22)
+------------------------
+* Kmom03 working version, before course update
+
+v3.0.2 (2018-11-20)
+------------------------
+* Kmom03 grid added
+
 v3.0.1 (2018-11-20)
 ------------------------
 * Kmom03 beginning
