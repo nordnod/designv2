@@ -962,16 +962,6 @@ a:hover {
 /**
  * Layout for responsive style through media queries.
  */
-@media screen and (max-width: 1500px) {
-  .site-logo {
-    display: none;
-  }
-}
-@media screen and (max-width: 600px) {
-  .rm-desktop {
-    display: none;
-  }
-}
 /**
  * Show off the regions used in the website, to ease styling.
  */
@@ -5128,10 +5118,9 @@ a:hover {
 .region-main.has-sidebar-left.has-sidebar-right {
   display: inline;
   float: left;
-  width: 48.95833333%;
+  width: 57.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  margin-left: 4.6875%;
 }
 .region-sidebar-left,
 .region-sidebar-right {
@@ -5208,4 +5197,75 @@ a:hover {
   font-style: normal;
   font-weight: 400;
   src: local('Mukta Regular'), local('Mukta-Regular'), url(https://fonts.gstatic.com/s/mukta/v5/iJWKBXyXfDDVXbnBrXk.ttf) format('truetype');
+}
+@media screen and (max-width: 950px) {
+  .rm-desktop {
+    display: none;
+  }
+  .region-main {
+    margin-bottom: 12px;
+  }
+  .region-main.has-sidebar {
+    display: inline;
+    float: left;
+    width: 61.45833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+    margin-left: 4.6875%;
+  }
+  .wrap-all {
+    max-width: 100%;
+    overflow: auto;
+  }
+  .footer-column {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+    margin-left: 4.6875%;
+  }
+  .footer-column-1,
+  .footer-column-2,
+  .footer-column-3 {
+    text-align: left;
+  }
+  .inner-wrap-header {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .region-main.has-sidebar {
+    display: inline;
+    float: left;
+    width: 90.625%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+    margin-left: 4.6875%;
+  }
+  .region-sidebar-left,
+  .region-sidebar-right {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+  }
+  .region-main.has-sidebar-left.has-sidebar-right {
+    display: inline;
+    float: left;
+    width: 90.625%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+    margin-left: 4.6875%;
+  }
+  .region-sidebar-left.has-sidebar-right,
+  .region-sidebar-right.has-sidebar-left {
+    display: inline;
+    float: left;
+    width: 90.625%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
+    margin-left: 4.6875%;
+  }
 }
