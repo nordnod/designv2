@@ -314,9 +314,6 @@ template {
 /**
  * My layout file
  */
-.byline {
-  border: 2px solid black;
-}
 .site-logo-text {
   display: none;
 }
@@ -335,10 +332,6 @@ template {
   margin: auto;
   width: 75%;
 }
-figure.figure.right {
-  font-style: italic;
-  font-size: 0.9em;
-}
 .my-navbar li {
   background-color: #be8397;
   box-shadow: 0px 5px 5px rgba(131, 43, 72, 0.32);
@@ -346,6 +339,9 @@ figure.figure.right {
 }
 .my-navbar li:hover {
   background-color: rgba(131, 43, 72, 0.19);
+}
+.outer-wrap-header {
+  background-color: #eee7e7;
 }
 .footer-column-1 {
   text-align: left;
@@ -364,8 +360,14 @@ figure.figure.right {
   display: block;
   clear: both;
 }
+.byline {
+  border: 1px solid black;
+}
 .site-footer {
   text-align: center;
+}
+.outer-wrap-footer {
+  background-color: #eee7e7;
 }
 /**
  * Internal self contained modules, save in directory module/.
@@ -655,7 +657,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", Georgia, "Times New Roman", Times, serif;
+  font-family: 'Roboto Slab', serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -936,13 +938,13 @@ hr::after {
 html {
   overflow-y: scroll;
   background-color: #fafafa;
-  font-family: Mukta, serif;
+  font-family: Mukta, sans-serif;
   font-size: 100%;
 }
 body {
   color: #333;
   background-color: #fafafa;
-  font: 16px/1.5 Mukta, serif;
+  font: 16px/1.5 Mukta, sans-serif;
 }
 a {
   color: #13a6e4;
@@ -954,6 +956,10 @@ a:visited {
 a:hover {
   color: #49d7e0;
   text-decoration: underline;
+}
+figure.figure.right {
+  font-style: italic;
+  font-size: 0.9em;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer
@@ -5056,7 +5062,6 @@ a:hover {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
-  background-color: #eee7e7;
 }
 .inner-wrap-header {
   margin-right: auto;
@@ -5091,7 +5096,7 @@ a:hover {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 4.6875%;
-  margin-bottom: 72px;
+  margin-bottom: 48px;
 }
 .region-main.has-sidebar {
   margin-left: 0.52083333%;
@@ -5126,12 +5131,10 @@ a:hover {
   width: 23.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-left: 4.6875%;
 }
 .region-sidebar-left.has-sidebar,
 .region-sidebar-right.has-sidebar {
-  margin-left: 4.6875%;
-}
-.region-sidebar-right {
   margin-left: 4.6875%;
 }
 .region-sidebar-left.has-sidebar-right,
@@ -5139,13 +5142,6 @@ a:hover {
   display: inline;
   float: left;
   width: 19.79166667%;
-  margin-left: 0.52083333%;
-  margin-right: 0.52083333%;
-}
-.footer-column {
-  display: inline;
-  float: left;
-  width: 32.29166667%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
 }
@@ -5165,6 +5161,29 @@ a:hover {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: -99.47916667%;
+}
+.outer-wrap-footer {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+}
+.footer-column {
+  display: inline;
+  float: left;
+  width: 32.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-bottom: 12px;
+}
+.byline {
+  margin-bottom: 12px;
+}
+.byline img {
+  margin-left: 4.6875%;
+  padding-top: 24px;
+}
+.byline p {
+  margin-left: 4.6875%;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5190,9 +5209,6 @@ a:hover {
   .rm-desktop {
     display: none;
   }
-  .region-main {
-    margin-bottom: 12px;
-  }
   .region-main.has-sidebar {
     display: inline;
     float: left;
@@ -5203,7 +5219,7 @@ a:hover {
   }
   .wrap-all {
     max-width: 100%;
-    overflow: auto;
+    overflow-x: hidden;
   }
   .footer-column {
     display: inline;
@@ -5265,4 +5281,10 @@ a:hover {
   font-style: normal;
   font-weight: 400;
   src: local('Mukta Regular'), local('Mukta-Regular'), url(https://fonts.gstatic.com/s/mukta/v5/iJWKBXyXfDDVXbnBrXk.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(https://fonts.gstatic.com/s/robotoslab/v7/BngMUXZYTXPIvIBgJJSb6ufN5qA.ttf) format('truetype');
 }

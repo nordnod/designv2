@@ -2,5 +2,4 @@
 
 Right sidebar. Tre kolumns layout
 
-Alot of interesting content could be placed here, even though space is limited.
-This sidebar will be placed underneath in "responsive mode".
+Denna kolumn trycks ner under artikeln när sidan går under en viss bredd.
