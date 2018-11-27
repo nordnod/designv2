@@ -32,7 +32,6 @@
 
 .inner-wrap {
     #desinax-vgrid.grid(1100px);
-    background-color: #eee7e7;
 }
 
 .region-flash {
@@ -41,7 +40,7 @@
 
 .region-main {
     #desinax-vgrid.column(@columns * 3 / 4); // 18
-    #desinax-vgrid.push(2);
+    #desinax-vgrid.push(1);
     &.has-sidebar {
         #desinax-vgrid.push(0);
     }

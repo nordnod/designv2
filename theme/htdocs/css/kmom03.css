@@ -317,18 +317,15 @@ template {
 .byline {
   border: 2px solid black;
 }
+.site-logo-text {
+  display: none;
+}
 .breadcrumb-list li,
 .bullet-list {
   display: inline;
 }
 .breadcrumb-list li::after {
   content: " > ";
-}
-.site-logo-text {
-  display: none;
-}
-.site-logo-text-icon {
-  display: none;
 }
 .my-navbar {
   text-align: center;
@@ -350,19 +347,25 @@ figure.figure.right {
 .my-navbar li:hover {
   background-color: rgba(131, 43, 72, 0.19);
 }
+.footer-column-1 {
+  text-align: left;
+}
+.footer-column-2 {
+  text-align: center;
+}
+.footer-column-3 {
+  text-align: right;
+}
 .section-header {
   font-size: 1.2em;
-}
-@font-face {
-  font-family: 'Mukta';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Mukta Regular'), local('Mukta-Regular'), url(https://fonts.gstatic.com/s/mukta/v5/iJWKBXyXfDDVXbnBrXk.ttf) format('truetype');
 }
 .row::after {
   content: "";
   display: block;
   clear: both;
+}
+.site-footer {
+  text-align: center;
 }
 /**
  * Internal self contained modules, save in directory module/.
@@ -932,14 +935,14 @@ hr::after {
 }
 html {
   overflow-y: scroll;
-  background-color: #dedcdc;
-  font-family: serif;
+  background-color: #fafafa;
+  font-family: Mukta, serif;
   font-size: 100%;
 }
 body {
   color: #333;
-  background-color: #eee7e7;
-  font: 16px/1.5 serif;
+  background-color: #fafafa;
+  font: 16px/1.5 Mukta, serif;
 }
 a {
   color: #13a6e4;
@@ -5066,6 +5069,7 @@ a:hover {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
+  background-color: #eee7e7;
 }
 .inner-wrap-header {
   margin-right: auto;
@@ -5091,6 +5095,7 @@ a:hover {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-bottom: 48px;
 }
 .region-main {
   display: inline;
@@ -5099,6 +5104,7 @@ a:hover {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 4.6875%;
+  margin-bottom: 72px;
 }
 .region-main.has-sidebar {
   margin-left: 0.52083333%;
@@ -5106,7 +5112,7 @@ a:hover {
 .region-main.has-sidebar-right {
   display: inline;
   float: left;
-  width: 61.45833333%;
+  width: 65.625%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 4.6875%;
@@ -5114,7 +5120,7 @@ a:hover {
 .region-main.has-sidebar-left {
   display: inline;
   float: left;
-  width: 61.45833333%;
+  width: 65.625%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 4.6875%;
@@ -5122,9 +5128,10 @@ a:hover {
 .region-main.has-sidebar-left.has-sidebar-right {
   display: inline;
   float: left;
-  width: 57.29166667%;
+  width: 48.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
+  margin-left: 4.6875%;
 }
 .region-sidebar-left,
 .region-sidebar-right {
@@ -5157,15 +5164,21 @@ a:hover {
   margin-right: 0.52083333%;
 }
 .next {
-  float: right;
-}
-.site-footer {
   display: inline;
   float: left;
-  width: 98.95833333%;
+  width: 48.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  margin-left: 46.35416667%;
+  margin-left: 50.52083333%;
+  text-align: right;
+}
+.previous {
+  display: inline;
+  float: left;
+  width: 48.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  margin-left: -99.47916667%;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5190,3 +5203,9 @@ a:hover {
 /**
  * My own settings, not currently in their own module.
  */
+@font-face {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Mukta Regular'), local('Mukta-Regular'), url(https://fonts.gstatic.com/s/mukta/v5/iJWKBXyXfDDVXbnBrXk.ttf) format('truetype');
+}
