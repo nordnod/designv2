@@ -1,8 +1,13 @@
 Revision history
 =======================
+
+v3.1.0 (2018-11-27)
+------------------------
+* Kmom03 Code cleanup and report written
+
 v3.0.5 (2018-11-27)
 ------------------------
-* Kmom03 Responsive layout and report written
+* Kmom03 Responsive layout
 
 v3.0.4 (2018-11-22)
 ------------------------
