@@ -1,0 +1,57 @@
+@import "kmom04.less";
+@import url('https://fonts.googleapis.com/css?family=Cairo|Tinos');
+@fontFamilyBody: Cairo, sans-serif;
+@fontFamilyHeadings: Tinos, sans-serif;
+
+
+// Gör om denna till en baslayout och använd variabler för att ändra mellan tema
+//
+
+@bgColor: #000;
+@bgLight: #333;
+@bgLighter: #666464;
+@textColor: #c7c7c7;
+
+html, body {
+    background-color: @bgColor;
+    letter-spacing: 0.9px;
+}
+
+.outer-wrap {
+    background-color: @bgColor;
+    color: @textColor;
+}
+
+.my-navbar li {
+    background-color: unset;
+    box-shadow: unset;
+    background-color: @bgLight;
+    color: @textColor;
+    &:hover {
+        background-color: unset;
+        background-color: @bgLighter;
+    }
+}
+
+code {
+    background-color: @bgLight;
+    color: #0f0;
+    border: none;
+}
+
+.wrap-all li{
+    color: @textColor;
+}
+
+.wrap-all a {
+    color: @textColor;
+    text-decoration: underline;
+}
+
+.wrap-all a:hover {
+    color: #fff;
+}
+
+.region-flash {
+    display: none;
+}
