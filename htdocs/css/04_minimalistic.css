@@ -1,5 +1,5 @@
 /*!
- * DEFAULT theme for design kmom04.
+ * LESS version of the stylesheet for design kmom04.
  *
  * This stylesheet is for the design course and kmom04.
  */
@@ -657,7 +657,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto Slab', serif;
+  font-family: Tinos, sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -938,13 +938,13 @@ hr::after {
 html {
   overflow-y: scroll;
   background-color: #fafafa;
-  font-family: Mukta, sans-serif;
+  font-family: Cairo, sans-serif;
   font-size: 100%;
 }
 body {
   color: #333;
   background-color: #fafafa;
-  font: 16px/1.5 Mukta, sans-serif;
+  font: 16px/1.5 Cairo, sans-serif;
 }
 a {
   color: #13a6e4;
@@ -5288,4 +5288,68 @@ figure.figure.right {
   font-style: normal;
   font-weight: 400;
   src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(https://fonts.gstatic.com/s/robotoslab/v7/BngMUXZYTXPIvIBgJJSb6ufN5qA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cairo'), local('Cairo-Regular'), url(https://fonts.gstatic.com/s/cairo/v4/SLXGc1nY6HkvalIhTp4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Tinos Regular'), local('Tinos-Regular'), url(https://fonts.gstatic.com/s/tinos/v11/buE4poGnedXvwjX7fmE.ttf) format('truetype');
+}
+/*
+ * #CCC372
+ * #FEFF29
+ * #E694FF
+ * #991C52
+ * #CC457F
+ */
+html,
+body {
+  background-color: #fff;
+}
+.outer-wrap-header {
+  background-color: #BB6DE8;
+}
+.rm-desktop {
+  display: none;
+}
+.wrap-all li {
+  color: #efe;
+}
+.wrap-all a {
+  color: #efe;
+}
+.wrap-all a:hover {
+  color: #FEFF29;
+}
+.outer-wrap-main {
+  background-color: #CC457F;
+  color: #efe;
+}
+.my-navbar li {
+  background-color: unset;
+  box-shadow: unset;
+  background-color: #CCC372;
+  color: #000;
+}
+.my-navbar li:hover {
+  background-color: unset;
+  background-color: #FEFF29;
+}
+code {
+  background-color: #333;
+  color: #0f0;
+  border: none;
+}
+.wrap-sidebar {
+  background-color: #991C52;
+}
+.outer-wrap-footer {
+  background-color: #BB6DE8;
+  color: #efe;
 }

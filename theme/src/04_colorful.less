@@ -1,7 +1,7 @@
 @import "kmom04.less";
-@import url('https://fonts.googleapis.com/css?family=Cairo|Tinos');
-@fontFamilyBody: Cairo, sans-serif;
-@fontFamilyHeadings: Tinos, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Anton|Fjalla+One');
+@fontFamilyBody: 'Fjalla One', sans-serif;
+@fontFamilyHeadings: 'Anton', sans-serif;
 @bgColor: #CC457F;
 @bgLight: #CC457F;
 @textHighlight: #FEFF29;
@@ -18,6 +18,7 @@
 
 html, body {
     background-color: @bgColor;
+    letter-spacing: 1px;
 }
 
 .outer-wrap-header {
@@ -53,14 +54,18 @@ html, body {
 }
 
 code {
-    background-color: @bgLight;
+    background-color: #333;
     color: #0f0;
     border: none;
 }
 
-.region-flash {
-    display: none;
+.wrap-sidebar {
+    background-color: #991C52;
 }
+
+// .region-flash {
+//     display: none;
+// }
 
 .outer-wrap-footer {
     background-color: #BB6DE8;

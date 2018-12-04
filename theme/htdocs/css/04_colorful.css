@@ -657,7 +657,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Tinos, sans-serif;
+  font-family: 'Anton', sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -938,13 +938,13 @@ hr::after {
 html {
   overflow-y: scroll;
   background-color: #fafafa;
-  font-family: Cairo, sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   font-size: 100%;
 }
 body {
   color: #333;
   background-color: #fafafa;
-  font: 16px/1.5 Cairo, sans-serif;
+  font: 16px/1.5 'Fjalla One', sans-serif;
 }
 a {
   color: #13a6e4;
@@ -5290,16 +5290,16 @@ figure.figure.right {
   src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(https://fonts.gstatic.com/s/robotoslab/v7/BngMUXZYTXPIvIBgJJSb6ufN5qA.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Cairo';
+  font-family: 'Anton';
   font-style: normal;
   font-weight: 400;
-  src: local('Cairo'), local('Cairo-Regular'), url(https://fonts.gstatic.com/s/cairo/v4/SLXGc1nY6HkvalIhTp4.ttf) format('truetype');
+  src: local('Anton Regular'), local('Anton-Regular'), url(https://fonts.gstatic.com/s/anton/v9/1Ptgg87LROyAm3Kz-Co.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Tinos';
+  font-family: 'Fjalla One';
   font-style: normal;
   font-weight: 400;
-  src: local('Tinos Regular'), local('Tinos-Regular'), url(https://fonts.gstatic.com/s/tinos/v11/buE4poGnedXvwjX7fmE.ttf) format('truetype');
+  src: local('Fjalla One'), local('FjallaOne-Regular'), url(https://fonts.gstatic.com/s/fjallaone/v5/Yq6R-LCAWCX3-6Ky7FAFrOF6lw.ttf) format('truetype');
 }
 /*
 * #CCC372
@@ -5311,6 +5311,7 @@ figure.figure.right {
 html,
 body {
   background-color: #CC457F;
+  letter-spacing: 1px;
 }
 .outer-wrap-header {
   background-color: #BB6DE8;
@@ -5339,12 +5340,12 @@ body {
   background-color: #FEFF29;
 }
 code {
-  background-color: #CC457F;
+  background-color: #333;
   color: #0f0;
   border: none;
 }
-.region-flash {
-  display: none;
+.wrap-sidebar {
+  background-color: #991C52;
 }
 .outer-wrap-footer {
   background-color: #BB6DE8;
