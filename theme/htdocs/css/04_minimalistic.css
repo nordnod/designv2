@@ -657,7 +657,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Tinos, sans-serif;
+  font-family: 'Oxygen Mono', monospace;
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -938,13 +938,13 @@ hr::after {
 html {
   overflow-y: scroll;
   background-color: #fafafa;
-  font-family: Cairo, sans-serif;
+  font-family: 'Share Tech Mono', monospace;
   font-size: 100%;
 }
 body {
   color: #333;
   background-color: #fafafa;
-  font: 16px/1.5 Cairo, sans-serif;
+  font: 16px/1.5 'Share Tech Mono', monospace;
 }
 a {
   color: #13a6e4;
@@ -5290,51 +5290,54 @@ figure.figure.right {
   src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(https://fonts.gstatic.com/s/robotoslab/v7/BngMUXZYTXPIvIBgJJSb6ufN5qA.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Cairo';
+  font-family: 'Oxygen Mono';
   font-style: normal;
   font-weight: 400;
-  src: local('Cairo'), local('Cairo-Regular'), url(https://fonts.gstatic.com/s/cairo/v4/SLXGc1nY6HkvalIhTp4.ttf) format('truetype');
+  src: local('Oxygen Mono'), local('OxygenMono-Regular'), url(https://fonts.gstatic.com/s/oxygenmono/v5/h0GsssGg9FxgDgCjLeAd7hjYx-s.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Tinos';
+  font-family: 'Share Tech Mono';
   font-style: normal;
   font-weight: 400;
-  src: local('Tinos Regular'), local('Tinos-Regular'), url(https://fonts.gstatic.com/s/tinos/v11/buE4poGnedXvwjX7fmE.ttf) format('truetype');
+  src: local('Share Tech Mono'), local('ShareTechMono-Regular'), url(https://fonts.gstatic.com/s/sharetechmono/v7/J7aHnp1uDWRBEqV98dVQztYldFcLowEA.ttf) format('truetype');
 }
 /*
- * #CCC372
- * #FEFF29
- * #E694FF
- * #991C52
- * #CC457F
+ * #757575
+ * #625E5E
+ * #fff
+ * #000
+ * #E3DADA
  */
 html,
 body {
-  background-color: #fff;
+  background-color: #E3DADA;
 }
 .outer-wrap-header {
-  background-color: #BB6DE8;
+  background-color: #E3DADA;
 }
 .rm-desktop {
   display: none;
 }
 .wrap-all li {
-  color: #efe;
+  color: #000;
+}
+#rm-menu a {
+  color: #fff;
 }
 .wrap-all a {
-  color: #efe;
+  color: #000;
 }
 .wrap-all a:hover {
-  color: #FEFF29;
+  color: #625E5E;
 }
 .outer-wrap-main {
-  background-color: #CC457F;
-  color: #efe;
+  background-color: #E3DADA;
+  color: #000;
 }
 .my-navbar li {
   background-color: unset;
   box-shadow: unset;
-  background-color: #CCC372;
+  background-color: #625E5E;
   color: #000;
 }
 .my-navbar li:hover {
@@ -5343,13 +5346,16 @@ body {
 }
 code {
   background-color: #333;
-  color: #0f0;
+  color: #fff;
   border: none;
 }
 .wrap-sidebar {
-  background-color: #991C52;
+  background-color: #E3DADA;
+}
+.region-flash {
+  display: none;
 }
 .outer-wrap-footer {
-  background-color: #BB6DE8;
-  color: #efe;
+  background-color: #E3DADA;
+  color: #000;
 }

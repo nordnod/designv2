@@ -1,21 +1,21 @@
  @import "kmom04.less";
-
- @import "kmom04.less";
- @import url('https://fonts.googleapis.com/css?family=Cairo|Tinos');
- @fontFamilyBody: Cairo, sans-serif;
- @fontFamilyHeadings: Tinos, sans-serif;
- @bgColor: #fff;
- @bgLight: #CC457F;
+ @import url('https://fonts.googleapis.com/css?family=Oxygen+Mono|Share+Tech+Mono');
+ @fontFamilyBody: 'Share Tech Mono', monospace;
+ @fontFamilyHeadings: 'Oxygen Mono', monospace;
+ @bgColor: #E3DADA;
+ @bgLight: #E3DADA;
+ @bgHeader: #E3DADA;
  @textHighlight: #FEFF29;
- @bgLighter: #CCC372;
- @textColor: #efe;
+ @bgLighter: #625E5E;
+ @textColor: #000;
+ @textLight: #fff;
 
  /*
- * #CCC372
- * #FEFF29
- * #E694FF
- * #991C52
- * #CC457F
+ * #757575
+ * #625E5E
+ * #fff
+ * #000
+ * #E3DADA
  */
 
  html, body {
@@ -23,7 +23,7 @@
  }
 
  .outer-wrap-header {
-     background-color: #BB6DE8;
+     background-color: @bgHeader;
  }
 
  .rm-desktop {
@@ -34,16 +34,20 @@
      color: @textColor;
  }
 
+ #rm-menu a {
+     color: #fff;
+ }
+
  .wrap-all a {
      color: @textColor;
  }
 
  .wrap-all a:hover {
-     color: @textHighlight;
+     color: @bgLighter;
  }
 
  .outer-wrap-main {
-     background-color: #CC457F;
+     background-color: @bgLight;
      color: @textColor;
  }
 
@@ -60,19 +64,19 @@
 
  code {
      background-color: #333;
-     color: #0f0;
+     color: @textLight;
      border: none;
  }
 
  .wrap-sidebar {
-     background-color: #991C52;
+     background-color: @bgColor;
  }
 
- // .region-flash {
- //     display: none;
- // }
+ .region-flash {
+     display: none;
+ }
 
  .outer-wrap-footer {
-     background-color: #BB6DE8;
+     background-color: @bgColor;
      color: @textColor;
  }
