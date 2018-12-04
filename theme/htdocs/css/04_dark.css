@@ -5305,6 +5305,15 @@ html,
 body {
   background-color: #000;
 }
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 2.8em;
+}
 .outer-wrap {
   background-color: #000;
   color: #c7c7c7;

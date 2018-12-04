@@ -5313,6 +5313,10 @@ body {
   background-color: #CC457F;
   letter-spacing: 1px;
 }
+h1 {
+  color: #FEFF29;
+  word-spacing: 0.2em;
+}
 .outer-wrap-header {
   background-color: #BB6DE8;
 }

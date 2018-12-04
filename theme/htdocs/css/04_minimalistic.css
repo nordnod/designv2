@@ -5311,6 +5311,12 @@ figure.figure.right {
 html,
 body {
   background-color: #E3DADA;
+  text-transform: lowercase;
+}
+h1,
+h2,
+h3 {
+  letter-spacing: 4px;
 }
 .outer-wrap-header {
   background-color: #E3DADA;

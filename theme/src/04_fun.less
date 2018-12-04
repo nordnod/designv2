@@ -1,0 +1,96 @@
+@import "kmom04.less";
+@import url('https://fonts.googleapis.com/css?family=Bangers|Luckiest+Guy');
+@fontFamilyBody: 'Bangers', cursive;
+@fontFamilyHeadings: 'Luckiest Guy', cursive;
+@bgColor: #EEC057;
+@bgLight: #E3DADA;
+@bgHeader: #EEC057;
+@textHighlight: #FEFF29;
+@bgLighter: #625E5E;
+@textColor: #000;
+@textLight: #fff;
+
+/*
+* #757575
+* #625E5E
+* #fff
+* #000
+* #E3DADA
+*/
+
+body {
+    background-image: url("../img/pg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.outer-wrap-header {
+    background-color: @bgHeader;
+}
+
+.wrap-all li{
+    color: @textColor;
+}
+
+#rm-menu a {
+    color: #fff;
+}
+
+.wrap-all a {
+    color: @textColor;
+}
+
+.wrap-all a:hover {
+    color: @bgLighter;
+}
+
+.row {
+    maring-bottom: 0;
+}
+
+.outer-wrap-main {
+    color: @textLight;
+    margin-bottom: 0;
+}
+
+.byline {
+    border: 0;
+}
+
+.wrap-sidebar {
+    // background-color: unset;
+    opacity: 0.4;
+    color: @textColor;
+}
+
+.my-navbar li {
+    background-color: unset;
+    box-shadow: unset;
+    background-color: @bgHeader;
+    color: #000;
+    &:hover {
+        background-color: unset;
+        background-color: @textLight;
+    }
+}
+
+code {
+    background-color: #333;
+    color: @textLight;
+    border: none;
+}
+
+.wrap-sidebar {
+    background-color: @bgColor;
+}
+
+.region-flash {
+    display: none;
+}
+
+.outer-wrap-footer {
+    // background-color: @bgColor;
+    background-image: linear-gradient(to bottom, @bgColor, @textLight);
+    color: @textColor;
+}
