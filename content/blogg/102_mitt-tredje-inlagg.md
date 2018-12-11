@@ -23,6 +23,7 @@ I vanlig ordning är småfåglarna väldigt nyfikna på såväl glass som övrig
 [FIGURE src=image/pippi.jpg&w=300&h=300&area=30,10,30,50&crop-to-fit caption="Trött fågel" class="right w50"]
 [FIGURE src=image/pippi.jpg&w=300&h=300&area=40,10,45,55&crop-to-fit&f=pixelate,8,1 caption="Censurerad fågel" class="center"]
 
+Bilen är tagen med en iPhone 8 Plus. Upplösningen är 3024x4032px och slutartiden 1/392sec. ISO är 20 och fokallängden 7mm.
 
 Röd fågel {#anchor-hit}
 -----------------------------------
