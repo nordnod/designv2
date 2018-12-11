@@ -62,9 +62,7 @@ class DI implements ContainerInterface
      */
     protected function load($service)
     {
-        $sol = isset($this->loaded[$service]['loader'])
-            ? $this->loaded[$service]['loader']
-            : null;
+        $sol = $this->loaded[$service]['loader'] ?? null;
 
         if (is_callable($sol)) {
             // Load by calling a function
@@ -157,9 +155,9 @@ class DI implements ContainerInterface
 
 
     /**
-     * Return an arry with all loaded services names.
+     * Return an array with all loaded services names.
      *
-     * @return void
+     * @return array
      */
     public function getServices()
     {
@@ -169,9 +167,9 @@ class DI implements ContainerInterface
 
 
     /**
-     * Return an arry with all active services names.
+     * Return an array with all active services names.
      *
-     * @return void
+     * @return array
      */
     public function getActiveServices()
     {

@@ -118,10 +118,11 @@ class ViewCollection implements
         array $data = [],
         string $region = "main",
         int $sort = 0
-    ) : object
-    {
+    ) : object {
         $view = new View();
+
         if (empty($template)) {
+            $tpl = null;
             $type = "empty";
         } elseif (is_string($template)) {
             $tpl = $this->getTemplateFile($template);

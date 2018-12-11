@@ -31,7 +31,7 @@ trait FBCLoadAdditionalContentTrait
                 switch ($meta["type"]) {
                     case "article-toc":
                         $content = $views["main"]["data"]["content"];
-                        $views[$id]["data"]["articleToc"] = $this->di->textFilter->createToc($content);
+                        $views[$id]["data"]["articleToc"] = $this->di->get("textfilter")->createToc($content);
                         break;
 
                     case "breadcrumb":
@@ -83,6 +83,14 @@ trait FBCLoadAdditionalContentTrait
 
                     case "toc":
                         $baseRoute = dirname($routeIndex);
+
+                        // Include support for ordering
+                        if (isset($meta["orderby"])
+                            || isset($meta["orderorder"])) {
+                            $this->orderToc($baseRoute, $meta);
+                        }
+
+                        // Same as toc-route
                         $toc = $this->meta[$baseRoute]["__toc__"];
                         $this->limitToc($toc, $meta);
                         $views[$id]["data"]["toc"] = $toc;

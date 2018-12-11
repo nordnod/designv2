@@ -44,6 +44,13 @@ class RouteHandler
         }
 
         if (is_callable($action)) {
+            if (is_array($action)
+                && is_string($action[0])
+                && class_exists($action[0])
+            ) {
+                $action[] = $arguments;
+                return $this->handleAsControllerAction($action);
+            }
             return $this->handleAsCallable($action, $arguments);
         }
 
@@ -128,23 +135,38 @@ class RouteHandler
         string $path = null,
         string $class
     ) {
+        $method = ucfirst(strtolower($method));
         $args = explode("/", $path);
         $action = array_shift($args);
         $action = empty($action) ? "index" : $action;
         $action = str_replace("-", "", $action);
-        $action1 = "{$action}Action" . ucfirst(strtolower($method));
+        $action1 = "{$action}Action{$method}";
         $action2 = "{$action}Action";
-        $action3 = "catchAll";
+        $action3 = "catchAll{$method}";
+        $action4 = "catchAll";
 
-        $refl = null;
-        foreach ([$action1, $action2, $action3] as $action) {
+        foreach ([$action1, $action2] as $target) {
             try {
-                $refl = new \ReflectionMethod($class, $action);
+                $refl = new \ReflectionMethod($class, $target);
                 if (!$refl->isPublic()) {
-                    throw new NotFoundException("Controller method '$class::$action' is not a public method.");
+                    throw new NotFoundException("Controller method '$class::$target' is not a public method.");
                 }
 
-                return [$class, $action, $args];
+                return [$class, $target, $args];
+            } catch (\ReflectionException $e) {
+                ;
+            }
+        }
+
+        foreach ([$action3, $action4] as $target) {
+            try {
+                $refl = new \ReflectionMethod($class, $target);
+                if (!$refl->isPublic()) {
+                    throw new NotFoundException("Controller method '$class::$target' is not a public method.");
+                }
+
+                array_unshift($args, $action);
+                return [$class, $target, $args];
             } catch (\ReflectionException $e) {
                 ;
             }

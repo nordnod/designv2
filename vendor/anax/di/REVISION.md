@@ -3,6 +3,44 @@ Revision history
 
 
 
+v2.0.4 (2018-11-16)
+---------------------------------
+
+* Remove Sensiolabs as validation tool.
+
+
+
+v2.0.3 (2018-11-16)
+---------------------------------
+
+* Upgrade to new scrutinizer codestyle engine.
+* Codestyle. Align code with docblock information.
+
+
+
+v2.0.2 (2018-11-16)
+---------------------------------
+
+* Improve README with a Table of content.
+
+
+
+v2.0.1 (2018-11-16)
+---------------------------------
+
+* Reduce code complexity in load().
+
+
+
+v2.0.0 (2018-11-16)
+---------------------------------
+
+* Completed the README.md.
+* Added test cases for README.md.
+* Added test cases for compliance with PSR-11.
+
+
+
 v2.0.0-beta.1 (2018-08-15)
 ---------------------------------
 

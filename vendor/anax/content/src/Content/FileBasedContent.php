@@ -885,7 +885,7 @@ class FileBasedContent implements ContainerInjectableInterface
         $content = $this->contentForInternalRoute($route);
         if ($content->internal === true) {
             $msg = t("The content '!ROUTE' does not exists as a public route.", ["!ROUTE" => $route]);
-            throw new \Anax\Exception\NotFoundException($msg);
+            throw new NotFoundException($msg);
         }
 
         return $content;

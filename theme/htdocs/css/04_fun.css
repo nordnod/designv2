@@ -5301,13 +5301,6 @@ figure.figure.right {
   font-weight: 400;
   src: local('Luckiest Guy Regular'), local('LuckiestGuy-Regular'), url(https://fonts.gstatic.com/s/luckiestguy/v8/_gP_1RrxsjcxVyin9l9n_j2hTd5z.ttf) format('truetype');
 }
-/*
-* #757575
-* #625E5E
-* #fff
-* #000
-* #E3DADA
-*/
 body {
   background-image: url("../img/pg.png");
   background-repeat: no-repeat;

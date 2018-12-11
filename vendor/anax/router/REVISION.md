@@ -10,6 +10,27 @@ Notes for development v2.0.0*
 
 
 
+v2.0.0-beta.9 (2018-11-23)
+---------------------------------
+
+* Enable router to call [class, method] using specific path to control argument types.
+
+
+
+v2.0.0-beta.8 (2018-11-22)
+---------------------------------
+
+* Add name of method, as first argument sent to the catchAll-methods.
+
+
+
+v2.0.0-beta.7 (2018-11-19)
+---------------------------------
+
+* Add support for controller method catchAll by request method.
+
+
+
 v2.0.0-beta.6 (2018-09-25)
 ---------------------------------
 
