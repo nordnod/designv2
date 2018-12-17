@@ -1,0 +1,161 @@
+@import "kmom04.less";
+@import url('https://fonts.googleapis.com/css?family=Cairo|Tinos');
+@fontFamilyBody: Cairo, sans-serif;
+@fontFamilyHeadings: Tinos, sans-serif;
+@bgColor: #DBFFF9;
+@bgHeader: #AFCCC7;
+
+@bgLight: #333;
+@bgLighter: #666464;
+@textColor: #333;
+@navText: #c7c7c7;
+
+/*
+* #DBFFF9
+* #AFCCC7
+* #DBFFF9
+* #94FFEE
+* #6D7F7D
+*/
+
+// Import desinax figure
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+html {
+    background-color: @bgHeader;
+}
+
+body {
+    background-color: @bgColor;
+}
+
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2.8em;
+}
+
+.outer-wrap {
+    // background-color: @bgColor;
+    color: @textColor;
+}
+
+.outer-wrap-header {
+    background-color: @bgHeader;
+    padding-bottom: @magicNumber / 4;
+    margin-bottom: @magicNumber;
+    box-shadow: 5px 5px 15px #333;
+}
+
+.outer-wrap-footer {
+    background-color: @bgHeader;
+    box-shadow: -5px -5px 15px #333;
+}
+
+.my-navbar li {
+    color: @textColor;
+    margin-top: @magicNumber;
+    background-color: @bgHeader;
+    // box-shadow: 2px 2px 2px #333;
+    text-decoration: none;
+    & a {
+        text-decoration: none;
+    }
+    &:hover {
+        background-color: rgba(46, 140, 214, 0.6);
+        // box-shadow: 2px 2px 2px 2px #333;
+    }
+}
+
+code {
+    background-color: @bgLight;
+    color: #0f0;
+    border: none;
+}
+
+.outer-wrap-main {
+
+}
+
+.inner-wrap-main {
+    // box-shadow: 2px 2px 5px 5px #333;
+}
+
+.wrap-all a {
+    color: @textColor;
+    text-decoration: underline;
+}
+
+.wrap-all a:hover {
+    color: #fff;
+}
+
+.region-flash {
+    box-shadow: 2px 2px 5px 5px #333;
+}
+
+
+// effects
+.my-navbar li:hover {
+   animation: shake 0.5s ease-in-out;
+}
+.region-flash:hover {
+    animation: slide 2s ease-in-out;
+    position: relative;
+}
+
+@keyframes slide {
+    0% {
+        left: 0px;
+    }
+    25% {
+        left: 200px;
+    }
+    50% {
+        left: 400px;
+    }
+    75% {
+        left: -200px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+@keyframes shake {
+  25% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  50% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  75% {
+    transform: translate3d(-2px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(1px, 0, 0);
+  }
+}

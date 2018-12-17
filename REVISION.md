@@ -1,5 +1,8 @@
 Revision history
 =======================
+v6.0.2 (2018-12-17)
+* Kmom06 analysis complete
+
 v6.0.1 (2018-12-17)
 * Kmom06 start
 
