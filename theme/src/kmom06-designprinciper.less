@@ -48,7 +48,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-    text-transform: uppercase;
+    font-weight: bold;
 }
 
 h1 {
@@ -82,7 +82,7 @@ h1 {
         text-decoration: none;
     }
     &:hover {
-        background-color: rgba(46, 140, 214, 0.6);
+        background-color: #6D7F7D;
         // box-shadow: 2px 2px 2px 2px #333;
     }
 }
@@ -93,8 +93,8 @@ code {
     border: none;
 }
 
-.outer-wrap-main {
-
+.wrap-all {
+    background-image: radial-gradient(circle, rgba(#e0f4f0, 0.74), #679089);
 }
 
 .inner-wrap-main {
@@ -111,7 +111,7 @@ code {
 }
 
 .region-flash {
-    box-shadow: 2px 2px 5px 5px #333;
+    box-shadow: 5px 5px 15px 5px #333;
 }
 
 
@@ -120,8 +120,15 @@ code {
    animation: shake 0.5s ease-in-out;
 }
 .region-flash:hover {
-    animation: slide 2s ease-in-out;
+    animation: slide 1s ease-in-out;
     position: relative;
+}
+
+.footer-column {
+    transition: transform .1s;
+}
+.footer-column:hover {
+    transform: scale(1.08);
 }
 
 @keyframes slide {
@@ -129,13 +136,13 @@ code {
         left: 0px;
     }
     25% {
-        left: 200px;
+        left: 50px;
     }
     50% {
-        left: 400px;
+        left: 100px;
     }
     75% {
-        left: -200px;
+        left: -100px;
     }
     100% {
         left: 0px;
