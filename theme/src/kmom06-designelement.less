@@ -1,0 +1,136 @@
+@import "kmom04.less";
+@import url('https://fonts.googleapis.com/css?family=Cairo|Tinos');
+@fontFamilyBody: Cairo, sans-serif;
+@fontFamilyHeadings: Tinos, sans-serif;
+// @bgColor: #DBFFF9;
+@bgColor: rgba(219, 255, 249, 0.2);
+@bgHeader: rgba(175, 204, 199, 0.1);
+
+@bgLight: #333;
+@bgLighter: #666464;
+@textColor: #333;
+@navText: #c7c7c7;
+
+/*
+* #71A0B2
+* #FFA2B4
+* #FCFEFF
+* #CCC76A
+* #B2B08A
+*/
+
+// Import desinax figure
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+html {
+    background-color: @bgHeader;
+    background-image: url("../image/pk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-color: @bgColor;
+}
+
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2.8em;
+}
+
+.outer-wrap {
+    // background-color: @bgColor;
+    color: @textColor;
+}
+
+.outer-wrap-header, .outer-wrap-footer {
+    background-color: @bgHeader;
+    padding-bottom: @magicNumber / 4;
+    box-shadow: 2px 2px 5px #333;
+}
+
+.my-navbar li {
+    color: @textColor;
+    margin-top: @magicNumber;
+    background-color: @bgHeader;
+    box-shadow: 2px 2px 2px #333;
+    text-decoration: none;
+    & a {
+        text-decoration: none;
+    }
+    &:hover {
+        background-color: rgba(46, 140, 214, 0.6);
+        box-shadow: 2px 2px 2px 2px #333;
+    }
+}
+
+code {
+    background-color: @bgLight;
+    color: #0f0;
+    border: none;
+}
+
+.outer-wrap-main {
+
+}
+
+.inner-wrap-main {
+    box-shadow: 2px 2px 5px 5px #333;
+}
+
+.wrap-all a {
+    color: @textColor;
+    text-decoration: underline;
+}
+
+.wrap-all a:hover {
+    color: #fff;
+}
+
+.region-flash {
+    // background-color: @bgColor;
+}
+
+// effects
+.my-navbar li:hover {
+   animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+  25% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  50% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  75% {
+    transform: translate3d(-2px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(1px, 0, 0);
+  }
+}
