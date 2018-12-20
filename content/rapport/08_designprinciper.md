@@ -14,8 +14,14 @@ Perspektiv försöker jag skapa genom att lägga flashimage ovanpå övrigt cont
 Footern får samma effekt. Detta skapar ett djup på sidan med flera lager.
 Det finns även en radial-gradient som gör hela sidan något ljusare i mitten medans kanterna är mörkare för att ytterligare skapa djup.
 
+3. Harmony
+
+Jag har valt ett monokromatist färgschema med återkommande liknande skuggning av olika element på sidan för att skapa harmoni.
+Som kontrastfärg används svart för text och vitt för en del linjer.
 
 ### Källor
 [Canva](https://www.canva.com/learn/design-elements-principles/)
 
 [Wikipedia](https://en.wikipedia.org/wiki/Visual_design_elements_and_principles)
+
+[JohnLovett](https://www.johnlovett.com/design-overview)

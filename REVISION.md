@@ -1,5 +1,8 @@
 Revision history
 =======================
+v6.1.0 (2018-12-20)
+* Kmom06 finished
+
 v6.0.3 (2018-12-17)
 * Kmom06 Stylesheets finished
 
